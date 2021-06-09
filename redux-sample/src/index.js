@@ -14,6 +14,6 @@ const App = () => (
     <Provider store={store}>
         <Counter />
     </Provider>
-) ;
+);
 
 ReactDOM.render(<App />, document.getElementById("root"));
